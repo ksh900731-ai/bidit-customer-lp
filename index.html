@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>비딧 - 업장청소의 새로운 기준</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * { font-family: 'Noto Sans KR', sans-serif; }
+    .gradient-bg { background: linear-gradient(135deg, #0E2B3A 0%, #2C5368 100%); }
+    .kakao-btn { background: #FEE500; color: #3C1E1E; }
+    .kakao-btn:hover { background: #FDD800; }
+    .hero-bg {
+      background: linear-gradient(rgba(14, 43, 58, 0.7), rgba(14, 43, 58, 0.8)), 
+                  url('hero-bg.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="bg-white">
+
+  <!-- 섹션 1: Hero (사진 배경) -->
+  <section class="hero-bg min-h-screen flex items-center justify-center px-6 py-20">
+    <div class="max-w-2xl text-center">
+      <p class="text-[#70A4C4] text-lg mb-4">천안·아산 운동센터 원장님을 위한</p>
+      <h1 class="text-white text-3xl md:text-5xl font-bold leading-tight mb-6">
+        원장님, 오늘도<br>마감청소 혼자 하셨죠?
+      </h1>
+      <p class="text-gray-300 text-lg md:text-xl mb-10">
+        청소 때문에 매일 1시간 더 야근하고 계신가요?
+      </p>
+      <a href="#cta" class="kakao-btn px-8 py-4 rounded-full font-bold text-lg inline-flex items-center gap-2 transition-all hover:scale-105 shadow-lg">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 3C6.48 3 2 6.58 2 11c0 2.83 1.89 5.31 4.68 6.68l-.95 3.53c-.05.18.02.38.17.49.15.11.35.12.51.03L10.5 19.2c.49.05.99.08 1.5.08 5.52 0 10-3.58 10-8s-4.48-8-10-8z"/>
+        </svg>
+        1시간 돌려받기
+      </a>
+      <p class="text-gray-400 text-sm mt-4">출시 알림 신청하고 얼리버드 혜택 받기</p>
+    </div>
+  </section>
+
+  <!-- 섹션 2: 문제 제기 -->
+  <section class="py-20 px-6 bg-white">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl md:text-4xl font-bold mb-4" style="color: #0E2B3A;">
+          매일 1시간 × 365일 =<br>
+          <span class="text-[#70A4C4]">연간 365시간</span>
+        </h2>
+        <p class="text-gray-600 text-lg">수업 끝나도 퇴근이 아닙니다</p>
+      </div>
+
+      <!-- 타임라인 -->
+      <div class="bg-[#F5F8FA] rounded-2xl p-8">
+        <div class="space-y-6">
+          <div class="flex items-center gap-4">
+            <div class="w-16 h-16 rounded-full bg-[#0E2B3A] flex items-center justify-center text-white font-bold">21:00</div>
+            <div class="flex-1">
+              <p class="font-bold text-[#0E2B3A]">마지막 수업 끝</p>
+              <p class="text-gray-500">😮‍💨 녹초가 됐는데...</p>
+            </div>
+          </div>
+          <div class="w-0.5 h-6 bg-gray-300 ml-8"></div>
+          <div class="flex items-center gap-4">
+            <div class="w-16 h-16 rounded-full bg-[#2C5368] flex items-center justify-center text-white font-bold">21:30</div>
+            <div class="flex-1">
+              <p class="font-bold text-[#0E2B3A]">청소 시작</p>
+              <p class="text-gray-500">😩 또 청소해야 해...</p>
+            </div>
+          </div>
+          <div class="w-0.5 h-6 bg-gray-300 ml-8"></div>
+          <div class="flex items-center gap-4">
+            <div class="w-16 h-16 rounded-full bg-[#2C5368] flex items-center justify-center text-white font-bold">22:30</div>
+            <div class="flex-1">
+              <p class="font-bold text-[#0E2B3A]">퇴근</p>
+              <p class="text-gray-500">😔 오늘도 늦었다</p>
+            </div>
+          </div>
+          <div class="w-0.5 h-6 bg-gray-300 ml-8"></div>
+          <div class="flex items-center gap-4">
+            <div class="w-16 h-16 rounded-full bg-gray-400 flex items-center justify-center text-white font-bold">23:00</div>
+            <div class="flex-1">
+              <p class="font-bold text-[#0E2B3A]">집 도착</p>
+              <p class="text-gray-500">💔 애들은 이미 잠들었어...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 섹션 3: 솔루션 -->
+  <section class="py-20 px-6" style="background: #E8F4FD;">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl md:text-4xl font-bold mb-4" style="color: #0E2B3A;">
+          비딧이 대신할게요
+        </h2>
+        <p class="text-gray-600 text-lg">원장님은 수업만 집중하세요</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- 카드 1 -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">⏱️</div>
+          <h3 class="text-xl font-bold mb-2" style="color: #0E2B3A;">1시간 단기 청소</h3>
+          <p class="text-gray-600">필요한 만큼만, 딱 1시간<br>2시간? 3시간? 너무 길어요</p>
+        </div>
+        <!-- 카드 2 -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">📋</div>
+          <h3 class="text-xl font-bold mb-2" style="color: #0E2B3A;">업종별 맞춤 SOP</h3>
+          <p class="text-gray-600">필라테스, PT샵, 병원, 학원<br>업종별 맞춤 체크리스트</p>
+        </div>
+        <!-- 카드 3 -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">📸</div>
+          <h3 class="text-xl font-bold mb-2" style="color: #0E2B3A;">전/후 사진 인증</h3>
+          <p class="text-gray-600">청소 품질 눈으로 확인<br>사진으로 확실하게</p>
+        </div>
+        <!-- 카드 4 -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+          <div class="text-4xl mb-4">📍</div>
+          <h3 class="text-xl font-bold mb-2" style="color: #0E2B3A;">동네 파트너 즉시 매칭</h3>
+          <p class="text-gray-600">천안·아산 지역 특화<br>가까운 파트너가 바로</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 섹션 4: 신뢰 -->
+  <section class="py-20 px-6 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl md:text-4xl font-bold mb-4" style="color: #0E2B3A;">
+          아무나 보내지 않아요
+        </h2>
+        <p class="text-gray-600 text-lg">검증된 파트너만 매칭됩니다</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- 신뢰 1 -->
+        <div class="text-center p-6">
+          <div class="w-20 h-20 rounded-full bg-[#E8F4FD] flex items-center justify-center mx-auto mb-4">
+            <span class="text-3xl">✅</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2" style="color: #0E2B3A;">파트너 검증</h3>
+          <p class="text-gray-600 text-sm">신원 확인 + 교육 이수 후<br>활동 가능</p>
+        </div>
+        <!-- 신뢰 2 -->
+        <div class="text-center p-6">
+          <div class="w-20 h-20 rounded-full bg-[#E8F4FD] flex items-center justify-center mx-auto mb-4">
+            <span class="text-3xl">📸</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2" style="color: #0E2B3A;">청소 인증</h3>
+          <p class="text-gray-600 text-sm">전/후 사진으로<br>품질 확인</p>
+        </div>
+        <!-- 신뢰 3 -->
+        <div class="text-center p-6">
+          <div class="w-20 h-20 rounded-full bg-[#E8F4FD] flex items-center justify-center mx-auto mb-4">
+            <span class="text-3xl">🛡️</span>
+          </div>
+          <h3 class="text-lg font-bold mb-2" style="color: #0E2B3A;">문제 시 책임</h3>
+          <p class="text-gray-600 text-sm">불만족 시<br>비딧이 해결</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 섹션 5: 얼리버드 -->
+  <section class="py-20 px-6" style="background: linear-gradient(135deg, #0E2B3A 0%, #2C5368 100%);">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-12">
+        <span class="inline-block bg-[#70A4C4] text-white px-4 py-2 rounded-full text-sm font-bold mb-4">🎉 얼리버드 혜택</span>
+        <h2 class="text-2xl md:text-4xl font-bold mb-4 text-white">
+          골라가세요!
+        </h2>
+        <p class="text-gray-300 text-lg">지금 신청하면 출시 즉시 드려요</p>
+      </div>
+
+      <!-- 쿠폰 2종 -->
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- 즉시 할인권 -->
+        <div class="bg-white rounded-2xl p-6 text-center relative overflow-hidden">
+          <div class="absolute top-0 left-0 w-full h-2 bg-[#70A4C4]"></div>
+          <span class="text-4xl mb-4 block">🎫</span>
+          <p class="text-[#70A4C4] font-bold mb-2">즉시 할인권</p>
+          <p class="text-3xl font-bold mb-2" style="color: #0E2B3A;">첫 청소</p>
+          <p class="text-4xl font-black mb-4" style="color: #0E2B3A;">3,000원 할인</p>
+          <p class="text-gray-500 text-sm">바로 할인 받고 싶은 분</p>
+          <div class="border-t-2 border-dashed border-gray-200 mt-4 pt-4">
+            <p class="text-xs text-gray-400">출시 후 첫 이용 시 적용</p>
+          </div>
+        </div>
+        <!-- 적립 무료권 -->
+        <div class="bg-white rounded-2xl p-6 text-center relative overflow-hidden">
+          <div class="absolute top-0 left-0 w-full h-2 bg-[#FEE500]"></div>
+          <span class="text-4xl mb-4 block">🎁</span>
+          <p class="text-[#70A4C4] font-bold mb-2">적립 무료권</p>
+          <p class="text-3xl font-bold mb-2" style="color: #0E2B3A;">3회 이용 시</p>
+          <p class="text-4xl font-black mb-4" style="color: #0E2B3A;">1회 무료!</p>
+          <p class="text-gray-500 text-sm">자주 쓸 분 (16,000원 가치!)</p>
+          <div class="border-t-2 border-dashed border-gray-200 mt-4 pt-4">
+            <p class="text-xs text-gray-400">3회 이용 완료 후 자동 지급</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 섹션 6: CTA -->
+  <section id="cta" class="py-20 px-6 bg-white">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-2xl md:text-4xl font-bold mb-4" style="color: #0E2B3A;">
+        카톡 친구 추가하고<br>얼리버드 혜택 받기
+      </h2>
+      <p class="text-gray-600 text-lg mb-8">출시되면 바로 알려드릴게요!</p>
+      
+      <a href="#" class="kakao-btn px-10 py-5 rounded-full font-bold text-xl inline-flex items-center gap-3 transition-all hover:scale-105 shadow-lg">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 3C6.48 3 2 6.58 2 11c0 2.83 1.89 5.31 4.68 6.68l-.95 3.53c-.05.18.02.38.17.49.15.11.35.12.51.03L10.5 19.2c.49.05.99.08 1.5.08 5.52 0 10-3.58 10-8s-4.48-8-10-8z"/>
+        </svg>
+        카카오톡 친구 추가
+      </a>
+
+      <p class="text-gray-400 text-sm mt-6">친구 추가 후 채널에서 원하는 쿠폰을 선택하세요</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 px-6" style="background: #0E2B3A;">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-2xl font-bold text-white mb-2">Bidit</p>
+      <p class="text-[#70A4C4] mb-4">업장청소의 새로운 기준</p>
+      <p class="text-gray-400 text-sm">천안·아산 지역 서비스</p>
+    </div>
+  </footer>
+
+</body>
+</html>
